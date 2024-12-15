@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>F1 Latest News</title>
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <style>
+      body {
+        position: relative;
+        background: #ffffff;
+      }
+      .news-header {
+        background-color: #212529 !important;
+        border-bottom: 3px solid #e10600;
+        color: white;
+        position: relative;
+        overflow: hidden;
+      }
+      .news-header .container {
+        position: relative;
+        z-index: 2;
+      }
+      .news-header .text-secondary {
+        color: rgba(255,255,255,0.7) !important;
+      }
+      .card {
+        background: #ffffff;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      }
+      .content-container {
+        background: rgba(255,255,255,0.9);
+        backdrop-filter: blur(5px);
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 2rem auto;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      }
+    </style>
+  </head>
+  
+  <body>
+  
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: red;">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./photos/f1logo.png" alt="Logo" width="120" height="30" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./latest.html"><i class="bi bi-globe"></i>&nbsp;Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./drivers.html"><i class="bi bi-person"></i>&nbsp;Drivers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./teams.html"><i class="bi bi-people"></i>&nbsp;Teams</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./schedule.html"><i class="bi bi-calendar-event"></i>&nbsp;Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./results.html"><i class="bi bi-trophy"></i>&nbsp;Results</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./academy.html"><i class="bi bi-mortarboard"></i>&nbsp;Academy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <main class="pb-5">
+    <div class="mb-4 mt-5 pt-5 pb-4 news-header">
+      <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Latest F1 News</h1>
+        <p class="lead mb-0 text-secondary">
+          Your source for the latest Formula 1 updates, race highlights, and team developments
+        </p>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="content-container">
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="card shadow-lg rounded-3 border-0 overflow-hidden hover-shadow">
+              <div class="position-relative">
+                <img src="./photos/latest_sainz.avif" class="card-img-top" alt="F1 Featured News" style="height: 500px; object-fit: cover;">
+                <div class="position-absolute bottom-0 start-0 w-100 bg-gradient-dark" style="height: 300px;"></div>
+                <div class="position-absolute bottom-0 start-0 p-4 text-white">
+                  <div class="d-flex align-items-center mb-2">
+                    <span class="badge bg-danger me-2">Featured</span>
+                    <small class="opacity-75">November 21, 2024</small>
+                  </div>
+                  <h2 class="h1 fw-bold mb-2">Las Vegas Strip Circuit 'more Ferrari than McLaren' says Sainz</h2>
+                  <p class="lead mb-0 opacity-75">
+                    Ferrari drivers Carlos Sainz and Charles Leclerc have assessed their chances of closing the gap to constructors' rivals McLaren in the upcoming Las Vegas Grand Prix.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm rounded-3 border-0 hover-shadow transition">
+              <img src="./photos/latest_bottas.avif" class="card-img-top" alt="Bottas News" style="height: 280px; object-fit: cover;">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="badge bg-danger me-2">Breaking</span>
+                  <small class="text-secondary">November 21, 2024</small>
+                </div>
+                <h3 class="card-title h4 fw-bold mb-3">'At least I know now' – Bottas reflects on losing Kick Sauber seat for 2025</h3>
+                <p class="card-text text-secondary">
+                  Valtteri Bottas has publicly spoken for the first time about the news that Kick Sauber have chosen to replace him for 2025, with the Finn stressing "life goes on" as he ponders what's next in his career.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm rounded-3 border-0 hover-shadow transition">
+              <img src="./photos/latest_schumacher.avif" class="card-img-top" alt="Schumacher News" style="height: 280px; object-fit: cover;">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="badge bg-danger me-2">Team News</span>
+                  <small class="text-secondary">November 21, 2024</small>
+                </div>
+                <h3 class="card-title h4 fw-bold mb-3">Binotto says Sauber had talks with 'strong candidate' Mick Schumacher</h3>
+                <p class="card-text text-secondary">
+                  Sauber boss Mattia Binotto has admitted that Mick Schumacher was a "strong candidate" for a seat at Kick Sauber in 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm rounded-3 border-0 hover-shadow transition">
+              <img src="./photos/latest_verstappen.avif" class="card-img-top" alt="Verstappen News" style="height: 280px; object-fit: cover;">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="badge bg-danger me-2">Race Preview</span>
+                  <small class="text-secondary">November 21, 2024</small>
+                </div>
+                <h3 class="card-title h4 fw-bold mb-3">'There's plenty to race for still' – Verstappen targets Las Vegas victory</h3>
+                <p class="card-text text-secondary">
+                  After an awe-inspiring victory last time out in Brazil, Max Verstappen is hopeful that the momentum can help propel him to his fourth world title.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm rounded-3 border-0 hover-shadow transition">
+              <img src="./photos/latest_academy.avif" class="card-img-top" alt="F1 Academy News" style="height: 280px; object-fit: cover;">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <span class="badge bg-danger me-2">F1 Academy</span>
+                  <small class="text-secondary">November 18, 2024</small>
+                </div>
+                <h3 class="card-title h4 fw-bold mb-3">F1 ACADEMY presents calendar for 2025 season</h3>
+                <p class="card-text text-secondary">
+                  F1 ACADEMY has announced a 2025 calendar that features seven rounds in support of Formula 1 and three new venues.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+   
+    <footer class="mt-5 pt-3 pb-2">
+        <p class="text-center">&copy; Bootstrap website 2024</p>
+    </footer>  
+    
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+
+</body>
+</html>
